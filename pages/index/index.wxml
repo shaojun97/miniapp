@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <Tabs tabs="{{tabs}}" active-key="{{activeKey}}" bindclick="onTabClick"/>
+  </view>
+  <view class="content">
+    <scroll-view class="content-scroll" scroll-y >
+      <view class="content-warpper">
+        <Card warpper-class="card-warpper" hover-class="card-hover" showHead="false" key="1" bindclick="onCardClick">
+
+        </Card>
+        <Card warpper-class="card-warpper" hover-class="card-hover" showHead="false" key="1" bindclick="onCardClick">
+
+        </Card>
+        <Card warpper-class="card-warpper" hover-class="card-hover" showHead="false" key="1" bindclick="onCardClick">
+
+        </Card>
+        <Card warpper-class="card-warpper" hover-class="card-hover" showHead="false" key="1" bindclick="onCardClick">
+
+        </Card>
+        <Card warpper-class="card-warpper" hover-class="card-hover" showHead="false" key="1" bindclick="onCardClick">
+
+        </Card>
+        <Card warpper-class="card-warpper" hover-class="card-hover" showHead="false" key="1" bindclick="onCardClick">
+
+        </Card>
+        <Card warpper-class="card-warpper" hover-class="card-hover" showHead="false" key="1" bindclick="onCardClick">
+
+        </Card>
+      </view>
+    </scroll-view>
+  </view>
+</view>

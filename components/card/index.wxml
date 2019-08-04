@@ -1,0 +1,13 @@
+<view class="card warpper-class" hover-class="hover-class" data-key="{{_key}}" bindtap="_onClick">
+  <view class="row card-header" wx:if="{{_showHead}}">
+    <view class="col card-title">
+      <slot name="title"></slot>
+    </view>
+    <view class="col card-extra">
+      <slot name="extra"></slot>
+    </view>
+  </view>
+  <view class="card-body">
+    <slot name="body"></slot>
+  </view>
+</view>

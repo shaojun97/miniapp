@@ -1,0 +1,7 @@
+.card-hover{
+  background: #e6fffb;
+}
+
+.card-warpper{
+  margin-bottom: 32rpx;
+}

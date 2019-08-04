@@ -1,0 +1,9 @@
+<view class="row tabs">
+  <view 
+    wx:for="{{tabs}}" wx:key="key" 
+    class="col tab{{item.key===_activeKey?'-active':''}}" 
+    data-key="{{item.key}}" bindtap="_onTabClick"
+  >
+   {{item.tab}}
+  </view>
+</view>
